@@ -3,7 +3,7 @@
 <suite name="work30">
     <test name="work30">
         <classes>
-            <class name="work1"></class>
+            <class name="work30.cucumber.CucumberRunnerTest"></class>
         </classes>
     </test>
 </suite>
