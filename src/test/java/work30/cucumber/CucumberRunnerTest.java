@@ -10,6 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         glue ={
                 "work28.stepsCucumber",
                 "work27.stepsCucumber",
+                "generalSteps"
         },
         tags = "@work28 or @work27"
 )

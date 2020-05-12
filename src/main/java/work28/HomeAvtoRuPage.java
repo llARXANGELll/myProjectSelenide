@@ -14,9 +14,6 @@ public class HomeAvtoRuPage {
 
     private SelenideElement offerVisibility = $(".Button_color_transparentBlue");
 
-    public void openSuite(String nameSuite) {
-        Selenide.open(nameSuite);
-    }
 
     public void checkNamePageTitile(String getNameTitile) {
         Assert.assertTrue(title().matches(getNameTitile));

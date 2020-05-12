@@ -7,11 +7,6 @@ public class HomePageSteps {
 
     HomeAvtoRuPage homeAvtoRuPage = new HomeAvtoRuPage();
 
-    @Допустим("пользователь входит на сайт {string}")
-    public void openSuite(String string) {
-        homeAvtoRuPage.openSuite(string);
-    }
-
     @Допустим("Название страницы содержит {string}")
     public void checkNamePageTitile(String nameTitle) {
         homeAvtoRuPage.checkNamePageTitile(nameTitle);
